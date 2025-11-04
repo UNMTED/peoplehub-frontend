@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => {
     const linkBase =
         "rounded py-1 px-4 hover:bg-white hover:text-black hover:cursor-pointer";
-    const linkAtivo = "bg-white text-black";
+    const linkAtivo = "bg-white text-people-color-dark";
     return (
         <>
-            <div className="flex justify-between w-7xl mx-auto">
+            <div className="flex justify-between pt-5">
                 <img
                     src="/src/assets/images/logo.png"
                     alt="Logo PeopleHub"

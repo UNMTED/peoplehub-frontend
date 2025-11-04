@@ -6,16 +6,20 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <Routes>
-                    <Route
-                        path="/"
-                        element={<Home />}
-                    />
-                    <Route
-                        path="/sobre"
-                        element={<Sobre />}
-                    />
-                </Routes>
+                <div className="h-screen text-white bg-linear-to-bl from-people-color-dark to-people-color-light">
+                    <div className="w-4/5 m-auto h-screen">
+                        <Routes>
+                            <Route
+                                path="/"
+                                element={<Home />}
+                            />
+                            <Route
+                                path="/sobre"
+                                element={<Sobre />}
+                            />
+                        </Routes>
+                    </div>
+                </div>
             </BrowserRouter>
         </>
     );
