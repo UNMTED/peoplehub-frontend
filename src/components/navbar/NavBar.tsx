@@ -29,15 +29,30 @@ export const NavBar = () => {
                     >
                         Sobre
                     </NavLink>
-                    <span className="text-white hover:text-black rounded py-1 px-4 hover:bg-white hover:cursor-pointer">
+                    <NavLink
+                        to="/contato"
+                        className={({ isActive }) =>
+                            `${linkBase} ${isActive ? linkAtivo : ""}`
+                        }
+                    >
                         Contato
-                    </span>
-                    <span className="text-white hover:text-black rounded py-1 px-4 hover:bg-white hover:cursor-pointer">
+                    </NavLink>
+                    <NavLink
+                        to="/nosso-time"
+                        className={({ isActive }) =>
+                            `${linkBase} ${isActive ? linkAtivo : ""}`
+                        }
+                    >
                         Nosso Time
-                    </span>
-                    <span className="text-white hover:text-black rounded py-1 px-4 hover:bg-white hover:cursor-pointer">
+                    </NavLink>
+                    <NavLink
+                        to="/produto"
+                        className={({ isActive }) =>
+                            `${linkBase} ${isActive ? linkAtivo : ""}`
+                        }
+                    >
                         Produto
-                    </span>
+                    </NavLink>
                 </nav>
             </div>
         </>
