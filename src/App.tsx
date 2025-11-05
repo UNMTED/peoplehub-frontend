@@ -10,8 +10,8 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <div className="h-screen font-[Poppins] text-white bg-linear-to-bl from-people-color-dark to-people-color-light">
-                    <div className="max-w-7xl mx-auto h-screen">
+                <div className="h-full px-20 font-[Poppins] text-white bg-linear-to-bl from-people-color-dark to-people-color-light">
+                    <div className="max-w-7xl mx-auto">
                         <NavBar />
                         <Routes>
                             <Route

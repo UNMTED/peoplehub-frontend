@@ -12,7 +12,7 @@ export const NavBar = () => {
                     alt="Logo PeopleHub"
                     className="h-10 sm:h-12 md:h-20 w-auto object-contain"
                 />
-                <nav className="flex text-2xl justify-end gap-2 mt-4 mb-auto">
+                <nav className="flex lg:text-xl xl:text-2xl justify-end gap-2 mt-4 mb-auto">
                     <NavLink
                         to="/"
                         className={({ isActive }) =>
