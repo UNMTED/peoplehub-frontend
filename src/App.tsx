@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { NavBar } from "./components/navbar/NavBar";
 import Contato from "./pages/contato/Contato";
 import { Home } from "./pages/home/Home";
 import NossoTime from "./pages/nossotime/NossoTIme";
@@ -9,8 +10,9 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <div className="h-screen text-white bg-linear-to-bl from-people-color-dark to-people-color-light">
-                    <div className="w-4/5 m-auto h-screen">
+                <div className="h-screen font-[Poppins] text-white bg-linear-to-bl from-people-color-dark to-people-color-light">
+                    <div className="max-w-7xl mx-auto h-screen">
+                        <NavBar />
                         <Routes>
                             <Route
                                 path="/"
