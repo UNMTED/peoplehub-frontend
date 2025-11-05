@@ -11,31 +11,33 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <div className="min-h-screen  font-[Poppins] text-white bg-linear-to-bl from-people-color-dark to-people-color-light">
-                    <div className=" px-20 mx-auto">
-                        <NavBar />
-                        <Routes>
-                            <Route
-                                path="/"
-                                element={<Home />}
-                            />
-                            <Route
-                                path="/sobre"
-                                element={<Sobre />}
-                            />
-                            <Route
-                                path="/contato"
-                                element={<Contato />}
-                            />
-                            <Route
-                                path="/nosso-time"
-                                element={<NossoTime />}
-                            />
-                            <Route
-                                path="/solucao"
-                                element={<Solucao />}
-                            />
-                        </Routes>
+                <div className="min-h-screen font-[Poppins] text-white bg-linear-to-bl from-people-color-dark to-people-color-light">
+                    <div className="px-20">
+                        <div className="max-w-7xl mx-auto">
+                            <NavBar />
+                            <Routes>
+                                <Route
+                                    path="/"
+                                    element={<Home />}
+                                />
+                                <Route
+                                    path="/sobre"
+                                    element={<Sobre />}
+                                />
+                                <Route
+                                    path="/contato"
+                                    element={<Contato />}
+                                />
+                                <Route
+                                    path="/nosso-time"
+                                    element={<NossoTime />}
+                                />
+                                <Route
+                                    path="/solucao"
+                                    element={<Solucao />}
+                                />
+                            </Routes>
+                        </div>
                     </div>
                     <Footer />
                 </div>
