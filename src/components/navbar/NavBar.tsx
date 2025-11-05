@@ -47,12 +47,12 @@ export const NavBar = () => {
                         Nosso Time
                     </NavLink>
                     <NavLink
-                        to="/produto"
+                        to="/solucao"
                         className={({ isActive }) =>
                             `${linkBase} ${isActive ? linkAtivo : ""}`
                         }
                     >
-                        Produto
+                        Solução
                     </NavLink>
                 </nav>
             </div>

@@ -3,8 +3,8 @@ import { NavBar } from "./components/navbar/NavBar";
 import Contato from "./pages/contato/Contato";
 import { Home } from "./pages/home/Home";
 import NossoTime from "./pages/nossotime/NossoTIme";
-import Produto from "./pages/produto/Produto";
 import { Sobre } from "./pages/sobre/Sobre";
+import Solucao from "./pages/solucao/Solucao";
 
 function App() {
     return (
@@ -31,8 +31,8 @@ function App() {
                                 element={<NossoTime />}
                             />
                             <Route
-                                path="/produto"
-                                element={<Produto />}
+                                path="/solucao"
+                                element={<Solucao />}
                             />
                         </Routes>
                     </div>
