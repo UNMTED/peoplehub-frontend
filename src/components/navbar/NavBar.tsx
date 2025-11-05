@@ -8,7 +8,7 @@ export const NavBar = () => {
         <>
             <div className="flex justify-between pt-5">
                 <img
-                    src="./src/assets/images/logo.png"
+                    src="/public/img/logo.png"
                     alt="Logo PeopleHub"
                     className="h-10 sm:h-12 md:h-20 w-auto object-contain"
                 />

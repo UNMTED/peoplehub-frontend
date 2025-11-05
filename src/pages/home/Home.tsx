@@ -1,7 +1,7 @@
 export const Home = () => {
     return (
         <>
-            <div className="bg-[url(./src/assets/images/imagem_de_fundo.png)] bg-contain bg-top-right bg-no-repeat  min-h-[85vh]">
+            <div className="bg-[url(/public/img/imagem_de_fundo.png)] bg-contain bg-top-right bg-no-repeat  min-h-[80vh]">
                 <main className="mt-20 font-[Poppins] [word-spacing:0.2rem] tracking-widest">
                     <section className="w-1/2 flex flex-col gap-10">
                         <h1 className="text-4xl">

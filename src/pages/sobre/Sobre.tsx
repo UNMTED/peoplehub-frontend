@@ -92,7 +92,7 @@ export const Sobre = () => {
     ];
 
     return (
-        <main className="min-h-screen text-white font-[Poppins]">
+        <main className="min-h-[80vh] text-white font-[Poppins]">
             <div className="container mx-auto px-4 py-16 md:py-24">
                 <motion.section
                     className="text-center mb-10 md:mb-20"

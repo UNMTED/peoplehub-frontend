@@ -2,7 +2,7 @@ import CardTime from "../../components/cardtime/CardTime";
 
 export default function NossoTime() {
     return (
-        <main className="py-16  px-4 sm:px-6">
+        <main className="min-h-[80vh] py-16  px-4 sm:px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <h1 className=" text-3x1 sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
                     Conheça o{" "}

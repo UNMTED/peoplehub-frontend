@@ -1,6 +1,6 @@
 const Solucao = () => {
     return (
-        <div className="min-h-screen bg text-white flex flex-col items-center pt-20 pb-10 px-3 md:px-8 lg:px-12 overflow-hidden">
+        <div className="min-h-[80vh] bg text-white flex flex-col items-center pt-20 pb-10 px-3 md:px-8 lg:px-12 overflow-hidden">
             {/* Cabeçalho */}
             <div className="text-center mb-16 max-w-4xl ">
                 <h1 className="text-4xl md:text-4xl font-semibold mb-10">
